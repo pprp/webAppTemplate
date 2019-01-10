@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/navigation_item1"
+            android:checkable="true"
+            android:title="历史记录"
+            android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/navigation_item2"
+            android:checkable="true"
+            android:title="个人信息"
+            android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/navigation_item3"
+            android:checkable="true"
+            android:title="订阅记录"
+            android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/navigation_item4"
+            android:checkable="true"
+            android:title="退出登录"
+            android:icon="@mipmap/ic_launcher"/>
+
+    </group>
+    <item android:id="@+id/navigation_sub"
+        android:title="其他">
+        <menu>
+            <item android:id="@+id/navigation_sub_item1"
+                android:checkable="true"
+                android:title="登录"
+                android:icon="@mipmap/ic_launcher"/>
+            <item android:id="@+id/navigation_sub_item2"
+                android:checkable="true"
+                android:title="帮助"
+                android:icon="@mipmap/ic_launcher"/>
+            <item android:id="@+id/navigation_sub_item3"
+                android:checkable="true"
+                android:title="分享"
+                android:icon="@mipmap/ic_launcher"/>
+        </menu>
+    </item>
+
+
+</menu>

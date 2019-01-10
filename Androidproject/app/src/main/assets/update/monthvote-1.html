@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>月推荐榜小说排行榜,全本小说排行榜</title>
+<meta name="keywords" content="月推荐榜,小说排行榜,全本小说排行榜" />
+<meta name="description" content="好看的月推荐榜,小说排行榜,全本小说" />
+<meta name="MobileOptimized" content="240"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<meta http-equiv="Cache-Control" content="no-transform " />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="https://libs.baidu.com/jquery/1.4.2/jquery.min.js"></script>
+<script src="/js/wap.js"></script>
+<script src="/js/denglu.js"></script>
+</head>
+<body>
+<div class="header" id="bqgmb_head">
+    <div class="back"><a href="javascript:history.go(-1);">返回</a></div>
+    <h1 id="bqgmb_h1">月推荐榜</h1>
+    <div class="back_r"><a href="C:/Users/Administrator/Desktop/page/showye.html">首页</a></div>
+</div>
+ 
+<script>search();</script>
+<div class="content">
+<ul>
+<li class="prev"><a id="dayvisit" href="/top/dayvisit-1.html">日点击榜</a></li>
+<li class="prev"><a id="weekvisit" href="/top/weekvisit-1.html">周点击榜</a></li>
+<li class="prev"><a id="monthvisit" href="/top/monthvisit-1.html">月点击榜</a></li>
+</ul>
+<ul>
+<li class="prev"><a id="allvisit" href="allvisit-1.html">总点击榜</a></li>
+<li class="prev"><a id="monthvote" href="monthvote-1.html">月推荐榜</a></li>
+<li class="prev"><a id="lastupdate" href="lastupdate-1.html">最近更新</a></li>
+</ul>
+</div>
+<div class="cover">
+<p class="line">[异术超能]<a href="/81177/" class="blue">花都之绝世仙尊</a>/fkfate</p>
+<p class="line">[玄幻异界]<a href="/21599/" class="blue">大主宰</a>/天蚕土豆</p>
+<p class="line">[异术超能]<a href="/82801/" class="blue">崛起复苏时代</a>/极地风刃</p>
+<p class="line">[历史传奇]<a href="/60351/" class="blue">宋末之乱臣贼子</a>/堕落的狼崽</p>
+<p class="line">[神话王朝]<a href="/933/" class="blue">大唐一品</a>/堕落的狼崽</p>
+<p class="line">[西方奇幻]<a href="/994/" class="blue">湛蓝徽章</a>/Deathstate</p>
+<p class="line">[玄幻异界]<a href="/2602/" class="blue">风姿物语</a>/罗森</p>
+<p class="line">[仙侠修真]<a href="/2805/" class="blue">玄门天道</a>/堕落的狼崽</p>
+<p class="line">[仙侠修真]<a href="/3532/" class="blue">命运天尊</a>/堕落的狼崽</p>
+<p class="line">[仙侠修真]<a href="/12759/" class="blue">仙道兑换师</a>/搬砖客</p> 
+</div>
+<div class="page">
+<a href="/top/monthvote-2.html">下页</a>
+<a href="/top/monthvote-4093.html">尾页</a>
+</div>
+<div class="page">输入页数<input id="pageinput" size="4" /><input type="button" value="跳转" onclick = "page()" /> <br/>(第1/4093页)当前10条/页</div>
+<script>
+function page(){
+    var p = document.getElementById("pageinput").value;
+    if(!isPositiveNum(p)){p = 4093;}
+    window.open("/top/monthvote-"+p+".html","_self");
+    function isPositiveNum(s){
+        if(s > 4093)return false;
+    var re = /^[0-9]*[1-9][0-9]*$/ ;
+        return re.test(s)
+    }
+}
+document.getElementById("monthvote").style.cssText = "background-color:#CCCCCC";
+</script>
+<div class="footer">
+   
+</div>
+<script>tj();</script>
+</body>
+</html>

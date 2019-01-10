@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EReader</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">BookShelf</string>
+    <string name="title_notifications">Read</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="tuijian">推荐</string>
+</resources>

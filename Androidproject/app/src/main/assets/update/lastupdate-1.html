@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>最近更新小说排行榜,全本小说排行榜_爱阅读</title>
+<meta name="keywords" content="最近更新,小说排行榜,全本小说排行榜,爱阅读" />
+<meta name="description" content="好看的最近更新,小说排行榜,全本小说,爱阅读" />
+<meta name="MobileOptimized" content="240"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<meta http-equiv="Cache-Control" content="no-transform " />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="https://libs.baidu.com/jquery/1.4.2/jquery.min.js"></script>
+<script src="/js/wap.js"></script>
+<script src="/js/denglu.js"></script>
+</head>
+<body>
+<div class="header" id="bqgmb_head">
+    <div class="back"><a href="javascript:history.go(-1);">返回</a></div>
+    <h1 id="bqgmb_h1">最近更新</h1>
+    <div class="back_r"><a href="C:/Users/Administrator/Desktop/page/showye.html">首页</a></div>
+</div>
+ 
+<script>search();</script>
+<div class="content">
+<ul>
+<li class="prev"><a id="dayvisit" href="/top/dayvisit-1.html">日点击榜</a></li>
+<li class="prev"><a id="weekvisit" href="/top/weekvisit-1.html">周点击榜</a></li>
+<li class="prev"><a id="monthvisit" href="/top/monthvisit-1.html">月点击榜</a></li>
+</ul>
+<ul>
+<li class="prev"><a id="allvisit" href="allvisit-1.html">总点击榜</a></li>
+<li class="prev"><a id="monthvote" href="monthvote-1.html">月推荐榜</a></li>
+<li class="prev"><a id="lastupdate" href="lastupdate-1.html">最近更新</a></li>
+</ul>  
+</div>
+<div class="cover">
+<p class="line">[灵异鬼怪]<a href="/87021/" class="blue">山海神纪之凤皇与光之宝石</a>/倒骑云中驴</p>
+<p class="line">[诗歌文集]<a href="/80658/" class="blue">爱豆王爷傲娇妃</a>/幽魅冥殇</p>
+<p class="line">[短篇综合]<a href="/72313/" class="blue">冤鬼契约</a>/阿尔萨兰</p>
+<p class="line">[异术超能]<a href="/79723/" class="blue">天降鬼才</a>/武异</p>
+<p class="line">[诗歌文集]<a href="/79208/" class="blue">执宫</a>/苡菲</p>
+<p class="line">[异术超能]<a href="/79438/" class="blue">祭炼山河</a>/食堂包子</p>
+<p class="line">[诗歌文集]<a href="/78989/" class="blue">赠她步步星光</a>/顾苏</p>
+<p class="line">[都市婚姻]<a href="/79443/" class="blue">下山虎</a>/对井当歌</p>
+<p class="line">[都市婚姻]<a href="/77797/" class="blue">乡村小医圣</a>/花港观鱼本尊</p>
+<p class="line">[奇幻修真]<a href="/80944/" class="blue">一个人的刀</a>/郁恬枉静</p> 
+</div>
+<div class="page">
+<a href="/top/lastupdate-2.html">下页</a>
+<a href="/top/lastupdate-4091.html">尾页</a>
+</div>
+<div class="page">输入页数<input id="pageinput" size="4" /><input type="button" value="跳转" onclick = "page()" /> <br/>(第1/4091页)当前10条/页</div>
+<script>
+function page(){
+    var p = document.getElementById("pageinput").value;
+    if(!isPositiveNum(p)){p = 4091;}
+    window.open("/top/lastupdate-"+p+".html","_self");
+    function isPositiveNum(s){
+        if(s > 4091)return false;
+    var re = /^[0-9]*[1-9][0-9]*$/ ;
+        return re.test(s)
+    }
+}
+document.getElementById("lastupdate").style.cssText = "background-color:#CCCCCC";
+</script>
+<div class="footer">
+  
+</div>
+<script>tj();</script>
+</body>
+</html>
